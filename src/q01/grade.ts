@@ -1,7 +1,7 @@
 const input = process.argv[2];
 const score = Number(input);
 
-if(isNaN(score) || score > 100 || score < 0 || !score){
+if(isNaN(score) || score > 100 || score < 0 || !score || !0){
     console.log("Invalid Input");
 }else{
     if(score >= 80){
@@ -16,7 +16,7 @@ if(isNaN(score) || score > 100 || score < 0 || !score){
     else if(score >= 50){
         console.log("Grade is D");
     }
-    else if(score < 50){
+    else if(score <= 50){
         console.log("Grade is F");
     }
 }
