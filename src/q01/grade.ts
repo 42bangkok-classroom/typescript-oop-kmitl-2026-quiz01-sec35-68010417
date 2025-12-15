@@ -1,7 +1,7 @@
 const input = process.argv[2];
 const score = Number(input);
 
-if(isNaN(score) || score > 100 || score < 0){
+if(isNaN(score) || score > 100 || score < 0 || !score){
     console.log("Invalid Input");
 }else{
     if(score >= 80){
