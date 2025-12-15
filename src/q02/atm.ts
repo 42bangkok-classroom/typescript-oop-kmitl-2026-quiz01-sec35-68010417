@@ -6,7 +6,7 @@ const withdraw = Number(input_2);
 
 if(process.argv[2] === "" || process.argv[3] === ""){
     console.log("Invalid Input");
-    process.exit;
+    process.exit();
 }
 if(isNaN(balance) || isNaN(withdraw)){
     console.log("Invalid Input");
