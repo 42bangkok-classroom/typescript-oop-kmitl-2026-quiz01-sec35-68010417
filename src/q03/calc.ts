@@ -4,7 +4,7 @@ const number = Number(input);
 const input_2 = process.argv[4];
 const number2 = Number(input_2);
 
-if(isNaN(number) || isNaN(number2) || input === undefined || input_2 === undefined){
+if(isNaN(number) || isNaN(number2) || input === undefined || input_2 === undefined || input.trim() === "" || input_2.trim() === ""){
     console.log("Invalid input")
 }else{
     switch(op){

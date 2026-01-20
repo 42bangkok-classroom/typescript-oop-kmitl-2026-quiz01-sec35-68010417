@@ -9,7 +9,7 @@ if(input === "" || input_2 === ""){
     process.exit();
 }
 if(isNaN(balance) || isNaN(withdraw)){
-    console.log("Invalid input");
+    console.log("Invalid Input");
 }else{
     if(withdraw > balance){
         console.log("Insufficient balance");
