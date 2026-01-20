@@ -17,6 +17,6 @@ if(!input){
         }
     }
     console.log(`Letters: ${letters}`);
-    console.log(`Digit: ${digits}`);
+    console.log(`Digits: ${digits}`);
     console.log(`Others: ${others}`);
 }
