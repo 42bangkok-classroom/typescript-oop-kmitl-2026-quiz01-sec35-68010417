@@ -4,8 +4,8 @@ const balance = Number(input);
 const input_2 = process.argv[3];
 const withdraw = Number(input_2);
 
-if(process.argv[2] === "" || process.argv[3] === ""){
-    console.log("Invalid Input");
+if(input === "" || input_2 === ""){
+    console.log("Invalid input");
     process.exit();
 }
 if(isNaN(balance) || isNaN(withdraw)){

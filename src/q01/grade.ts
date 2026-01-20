@@ -3,7 +3,7 @@ const score = Number(input);
 
 if(process.argv[2] === ""){
     console.log("Invalid Input");
-}else if(isNaN(score) || score > 100 || score < 0  ){
+}else if(isNaN(score) || score > 100 || score < 0 ){
     console.log("Invalid Input");
 }else{
     if(score >= 80){

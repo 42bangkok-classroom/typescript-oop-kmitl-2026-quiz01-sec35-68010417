@@ -1,12 +1,10 @@
 const op = process.argv[2];
-
 const input = process.argv[3];
 const number = Number(input);
-
 const input_2 = process.argv[4];
 const number2 = Number(input_2);
 
-if(isNaN(number) || isNaN(number2) || !number ||!number2){
+if(isNaN(number) || isNaN(number2) || input === undefined || input_2 === undefined){
     console.log("Invalid input")
 }else{
     switch(op){
@@ -29,9 +27,9 @@ if(isNaN(number) || isNaN(number2) || !number ||!number2){
             if(number2 === 0){
                 console.log("Invalid input")
             }else{
-            let sum4 = number / number2
-            let sum_string4 : string = String(sum4)
-            console.log(sum_string4);
+                let sum4 = number / number2
+                let sum_string4 : string = String(sum4)
+                console.log(sum_string4);
             }
             break;
         default: 
