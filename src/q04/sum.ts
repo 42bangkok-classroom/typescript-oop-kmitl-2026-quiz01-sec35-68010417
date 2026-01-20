@@ -3,7 +3,7 @@ const number = Number(input);
 let sum :number = 0;
 
 
-if(isNaN(number)|| number < 1 || !number){
+if(isNaN(number)|| number < 1 || !number || !Number.isInteger(number)){
     console.log("Invalid Input");
 }else{
     for(let i=0; i <= number;i++){
