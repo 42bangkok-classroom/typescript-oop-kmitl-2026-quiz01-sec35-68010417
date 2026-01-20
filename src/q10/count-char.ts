@@ -16,7 +16,7 @@ if(!input){
             others++;
         }
     }
-    console.log(`"Letters:",${letters}`);
-    console.log(`Lectters:${digits}`);
-    console.log(`"Others:",${others}`);
+    console.log(`Letters:${letters}`);
+    console.log(`Digit:${digits}`);
+    console.log(`Others:${others}`);
 }
